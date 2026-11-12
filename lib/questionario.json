@@ -1,0 +1,579 @@
+{
+ "versao": 1,
+ "faixas": [
+  {
+   "nome": "Fraco",
+   "ate": 30
+  },
+  {
+   "nome": "Regular",
+   "ate": 60
+  },
+  {
+   "nome": "Bom",
+   "ate": 90
+  },
+  {
+   "nome": "Ótimo",
+   "ate": 100
+  }
+ ],
+ "criterios": [
+  {
+   "id": "lideranca",
+   "nome": "Liderança",
+   "pontos": 15,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa como os dirigentes exercem a liderança na empresa. Verifica a formulação da missão e sua comunicação aos colaboradores, além do compartilhamento de informações da empresa e o incentivo ao comportamento ético. Observa o desenvolvimento gerencial dos dirigentes, a aplicação dos conhecimentos adquiridos na gestão da empresa e a análise do desempenho do negócio. Analisa também como são promovidas inovações.",
+   "perguntas": [
+    {
+     "id": "q1",
+     "n": 1,
+     "texto": "A MISSÃO DA EMPRESA ESTÁ DEFINIDA E É CONHECIDA PELOS COLABORADORES?",
+     "opcoes": [
+      "A Missão não está definida.",
+      "A Missão está definida informalmente, sendo do conhecimento apenas dos dirigentes.",
+      "A Missão está definida e registrada sob a forma escrita e é conhecida e entendida por alguns colaboradores.",
+      "A Missão está definida e registrada sob a forma escrita e é conhecida e entendida por todos colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar a Missão da empresa e os meios utilizados para a sua comunicação aos colaboradores."
+    },
+    {
+     "id": "q2",
+     "n": 2,
+     "texto": "O COMPORTAMENTO ÉTICO É INCENTIVADO PELOS DIRIGENTES NAS RELAÇÕES INTERNAS E EXTERNAS?",
+     "opcoes": [
+      "Não existem regras para assegurar o comportamento ético.",
+      "O comportamento ético é promovido por meio de regras informais.",
+      "O comportamento ético está definido em regras escritas.",
+      "O comportamento ético está definido em regras escritas, que são conhecidas e praticadas por todos dirigentes e colaboradores"
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q3",
+     "n": 3,
+     "texto": "O DESEMPENHO DA EMPRESA É ANALISADO PELOS DIRIGENTES?",
+     "opcoes": [
+      "Não é feita a análise de desempenho da empresa.",
+      "A análise de desempenho da empresa é feita ocasionalmente, com foco principalmente no desempenho financeiro.",
+      "A análise de desempenho da empresa é feita regularmente, mas de forma restrita a alguns aspectos, como, por exemplo, financeiro, vendas, atendimento e produção.",
+      "A análise de desempenho da empresa é feita regularmente, e inclui aspectos abrangentes ao negócio como, por exemplo, financeiro, vendas, clientes, colaboradores, fornecedores e produção, com uso de indicadores e metas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar a periodicidade da análise de desempenho, os participantes e exemplos de informações utilizadas na análise do desempenho e na comparação com outras empresas."
+    },
+    {
+     "id": "q4",
+     "n": 4,
+     "texto": "OS DIRIGENTES COMPARTILHAM INFORMAÇÕES COM OS COLABORADORES?",
+     "opcoes": [
+      "As informações não são compartilhadas com os colaboradores.",
+      "O compartilhamento de informações com os colaboradores, ocorre esporadicamente.",
+      "O compartilhamento de informações com os colaboradores ocorre regularmente e abrange alguns colaboradores.",
+      "O compartilhamento de informações com os colaboradores ocorre regularmente e abrange todos colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os meios utilizados para compartilhar as informações com os colaboradores e tipos de informação."
+    },
+    {
+     "id": "q5",
+     "n": 5,
+     "texto": "OS DIRIGENTES INVESTEM EM SEU DESENVOLVIMENTO GERENCIAL E APLICAM OS CONHECIMENTOS ADQUIRIDOS NA EMPRESA?",
+     "opcoes": [
+      "Os dirigentes não investem em seu desenvolvimento gerencial.",
+      "Os dirigentes esporadicamente investem em seu desenvolvimento gerencial, mas não aplicam os conhecimentos adquiridos na empresa.",
+      "Os dirigentes esporadicamente investem em seu desenvolvimento gerencial, e aplicam os conhecimentos adquiridos na empresa.",
+      "Os dirigentes regularmente investem em seu desenvolvimento gerencial, e aplicam os conhecimentos adquiridos na empresa."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q6",
+     "n": 6,
+     "texto": "A BUSCA DE INFORMAÇÕES PARA IDENTIFICAR OPORTUNIDADES DE INOVAÇÃO INCLUEM AS FONTES EXTERNAS E OS COLABORADORES SÃO INCENTIVADOS A APRESENTAREM IDEIAS QUE PODEM SE CONVERTER EM INOVAÇÕES?",
+     "opcoes": [
+      "Não são buscadas informações externas e nem há estímulo ao surgimento de idéias criativas entre os colaboradores.",
+      "As informações e conhecimentos para  identificar oportunidades de inovação são obtidos eventualmente nos relacionamentos externos e internamente os colaboradores são incentivados informalmente a apresentarem idéias que podem converter em inovações.",
+      "As informações e conhecimentos para  identificar oportunidades de inovação são obtidos regularmente nos relacionamentos externos e internamente os colaboradores são incentivados formalmente a apresentarem idéias que podem converter em inovações.",
+      "As informações e conhecimentos para  identificar oportunidades de inovação são obtidos regularmente nos relacionamentos externos e internamente os colaboradores são incentivados formalmente a apresentarem idéias que podem converter em inovações, existindo pelo menos, um exemplo de inovação implementada a partir dessas informações."
+     ],
+     "dica": ""
+    }
+   ]
+  },
+  {
+   "id": "estrategia",
+   "nome": "Estratégia e Planos",
+   "pontos": 9,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa o processo de definição das estratégias e planos. Considera a formulação da Visão de Futuro e sua comunicação aos colaboradores. Observa a definição das estratégias para o cumprimento da visão definida, o estabelecimento de indicadores e metas para assegurar a implementação das estratégias, bem como os planos de ação para assegurar o cumprimento das metas associadas aos indicadores.",
+   "perguntas": [
+    {
+     "id": "q7",
+     "n": 7,
+     "texto": "A VISÃO DA EMPRESA ESTÁ DEFINIDA E É CONHECIDA PELOS COLABORADORES?",
+     "opcoes": [
+      "A Visão não está definida.",
+      "A Visão está definida informalmente, sendo de conhecimento apenas dos dirigentes.",
+      "A Visão está registrada sob a forma escrita e é conhecida por alguns colaboradores.",
+      "A Visão está registrada sob a forma escrita e é conhecida por todos os colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar a Visão da empresa e os meios utilizados para a sua comunicação aos colaboradores."
+    },
+    {
+     "id": "q8",
+     "n": 8,
+     "texto": "AS ESTRATÉGIAS QUE PERMITEM ALCANÇAR OS OBJETIVOS DA EMPRESA ESTÃO DEFINIDAS?",
+     "opcoes": [
+      "As estratégias não estão definidas.",
+      "As estratégias estão definidas informalmente e com uso restrito de informações internas e externas.",
+      "As estratégias estão definidas informalmente, mas são consideradas informações internas e externas relacionadas ao negócio.",
+      "As estratégias, abrangentes aos principais aspectos do negócio, estão definidas formalmente, por meio de método que considera a análise de informações internas e externas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar as estratégias da empresa e os tipos de informações externas e internas analisadas no processo de planejamento."
+    },
+    {
+     "id": "q9",
+     "n": 9,
+     "texto": "OS INDICADORES E METAS RELACIONADOS ÀS ESTRATÉGIAS ESTÃO ESTABELECIDOS?",
+     "opcoes": [
+      "Não existem indicadores relacionados às estratégias.",
+      "Os indicadores são estabelecidos para algumas estratégias, mas não existem metas relacionadas a esses indicadores.",
+      "Os indicadores e suas respectivas metas são estabelecidos para algumas estratégias.",
+      "Os indicadores e suas respectivas metas são estabelecidos para as principais estratégias e são comunicados aos colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os indicadores e as metas definidos no planejamento."
+    },
+    {
+     "id": "q10",
+     "n": 10,
+     "texto": "OS PLANOS DE AÇÃO, VISANDO ALCANÇAR AS METAS DA EMPRESA RELACIONADAS ÀS ESTRATÉGIAS, ESTÃO DEFINIDOS?",
+     "opcoes": [
+      "Não existem planos de ação visando alcançar as metas da empresa relacionadas às estratégias.",
+      "As ações são definidas informalmente para o alcance de algumas metas da empresa relacionadas às estratégias.",
+      "Planos de ação são estabelecidos para o alcance das principais metas da empresa relacionadas às estratégias.",
+      "Planos de ação são estabelecidos para o alcance das principais metas da empresa relacionadas às estratégias, e são acompanhadas regularmente."
+     ],
+     "dica": ""
+    }
+   ]
+  },
+  {
+   "id": "clientes",
+   "nome": "Clientes",
+   "pontos": 9,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa as práticas de gestão da empresa em relação a seus clientes atuais e potenciais. Verifica o conhecimento das necessidades e expectativas dos clientes e sua identificação e agrupamento em relação a esses aspectos. Observa a divulgação dos produtos/serviços aos clientes atuais e potenciais e analisa o relacionamento com estes, por meio do tratamento das reclamações, da avaliação da sua satisfação e utilização dessas informações para a fidelização dos clientes atuais e captação de novos clientes.",
+   "perguntas": [
+    {
+     "id": "q11",
+     "n": 11,
+     "texto": "OS CLIENTES SÃO AGRUPADOS E SUAS NECESSIDADES E EXPECTATIVAS SÃO IDENTIFICADAS?",
+     "opcoes": [
+      "Não há nenhum tipo de agrupamento dos clientes.",
+      "Os clientes não são agrupados e a identificação das suas necessidades é feita de forma intuitiva.",
+      "Os clientes são agrupados e as necessidades e expectativas destes grupos são identificadas informalmente por meio informações obtidas dos clientes.",
+      "Os clientes são agrupados e as necessidades e expectativas destes grupos são identificadas formalmente por meio informações obtidas dos principais grupos de clientes."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os principais grupos de clientes e suas necessidades."
+    },
+    {
+     "id": "q12",
+     "n": 12,
+     "texto": "OS PRODUTOS E SERVIÇOS SÃO DIVULGADOS AOS CLIENTES?",
+     "opcoes": [
+      "Os produtos e serviços não são divulgados aos clientes.",
+      "Os produtos e serviços são divulgados sem considerar os diferentes grupos de clientes.",
+      "Os produtos e serviços são divulgados considerando os diferentes grupos de clientes.",
+      "Os produtos e serviços são divulgados considerando os diferentes grupos de clientes e utilizando meios adequados para assegurar a efetividade desta comunicação."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q13",
+     "n": 13,
+     "texto": "AS RECLAMAÇÕES DOS CLIENTES SÃO REGISTRADAS E TRATADAS?",
+     "opcoes": [
+      "Não são disponibilizados canais de comunicação para os clientes apresentarem suas reclamações.",
+      "As reclamações recebidas não são registradas e são tratadas ocasionalmente.",
+      "As reclamações recebidas são registradas e tratadas regularmente.",
+      "As reclamações recebidas são registradas e tratadas regularmente, e o cliente é informado da solução dada à sua reclamação."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os canais de comunicação disponibilizados aos clientes para receber as reclamações."
+    },
+    {
+     "id": "q14",
+     "n": 14,
+     "texto": "A SATISFAÇÃO DOS CLIENTES É AVALIADA?",
+     "opcoes": [
+      "A satisfação do cliente não é avaliada.",
+      "A satisfação do cliente é avaliada eventualmente e de forma intuitiva.",
+      "A satisfação do cliente é avaliada periodicamente por meio de método formal para alguns dos grupos de clientes.",
+      "A satisfação do cliente é avaliada periodicamente por meio de método formal para os principais grupos de clientes."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar a periodicidade da análise e o método de avaliação de satisfação dos clientes."
+    },
+    {
+     "id": "q15",
+     "n": 15,
+     "texto": "AS INFORMAÇÕES OBTIDAS DOS CLIENTES SÃO ANALISADAS E UTILIZADAS PARA INTENSIFICAR A SUA FIDELIDADE E CAPTAR NOVOS?",
+     "opcoes": [
+      "As informações obtidas dos clientes não são analisadas.",
+      "As informações obtidas são analisadas ocasionalmente para fidelizar os clientes atuais.",
+      "As informações obtidas são analisadas e utilizadas regularmente para fidelizar os clientes atuais.",
+      "As informações obtidas dos clientes são utilizadas regularmente na fidelização dos clientes atuais e captação de novos."
+     ],
+     "dica": ""
+    }
+   ]
+  },
+  {
+   "id": "sociedade",
+   "nome": "Sociedade",
+   "pontos": 6,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa as práticas de gestão da empresa em relação à sociedade no atendimento às exigências legais, aspectos ambientais e sociais. Observa a identificação e o tratamento dos impactos ao meio ambiente, provocados pelos produtos, serviços e atividades da empresa, bem como de suas próprias instalações. Observa também o cumprimento das exigências legais, incluindo os aspectos ambientais, e o comprometimento com a comunidade, por meio do desenvolvimento voluntário de ações ou projetos sociais, com envolvimento, também voluntário, de seus dirigentes e colaboradores.",
+   "perguntas": [
+    {
+     "id": "q16",
+     "n": 16,
+     "texto": "AS EXIGÊNCIAS LEGAIS NECESSÁRIAS PARA O FUNCIONAMENTO DA EMPRESA SÃO CONHECIDAS E MANTIDAS ATUALIZADAS?",
+     "opcoes": [
+      "As exigências legais aplicáveis à empresa não são conhecidas.",
+      "Algumas exigências legais aplicáveis à empresa são conhecidas, mas não são mantidas atualizadas.",
+      "As exigências legais aplicáveis à empresa são conhecidas, mas não são mantidas atualizadas.",
+      "As exigências legais aplicáveis à empresa são conhecidas e mantidas atualizadas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Listar as exigências legais relacionados ao negócio, incluindo os ambientais."
+    },
+    {
+     "id": "q17",
+     "n": 17,
+     "texto": "OS IMPACTOS NEGATIVOS CAUSADOS PELA EMPRESA AO MEIO AMBIENTE SÃO CONHECIDOS E TRATADOS?",
+     "opcoes": [
+      "Os impactos negativos ao meio ambiente não são conhecidos.",
+      "Os impactos negativos ao meio ambiente não são conhecidos, mas algumas ações são adotadas de modo a evitar prejuízos ao meio ambiente.",
+      "Os impactos negativos ao meio ambiente são conhecidos e alguns são tratados por meio de ações adequadas.",
+      "Os impactos negativos ao meio ambiente são identificados e alguns são tratados de forma planejada por meio de ações adequadas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os principais impactos negativos, tais como energia, água, matéria prima, resíduos sólidos e poluição, causados pelas atividades da empresa ao meio ambiente e ações de tratamento adotadas."
+    },
+    {
+     "id": "q18",
+     "n": 18,
+     "texto": "A EMPRESA DEMONSTRA SEU COMPROMETIMENTO COM A COMUNIDADE POR MEIO DE AÇÕES OU PROJETOS SOCIAIS?",
+     "opcoes": [
+      "Não são realizadas ações ou projetos sociais.",
+      "A empresa participa ou realiza ações ou projetos sociais esporadicamente.",
+      "A empresa participa ou realiza ações ou projetos sociais regularmente com o envolvimento de seus colaboradores.",
+      "A responsabilidade social faz parte das estratégias e planos da empresa e as ações ou projetos contam com o envolvimento dos colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar as principais ações e projetos sociais desenvolvidos pela empresa."
+    }
+   ]
+  },
+  {
+   "id": "informacoes",
+   "nome": "Informações e Conhecimento",
+   "pontos": 6,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa as informações necessárias à execução das atividades da empresa e à tomada de decisão. Observa como o conhecimento adquirido pelas pessoas, na execução de suas atividades, é compartilhado entre os dirigentes e colaboradores, assegurando o domínio das técnicas no seu setor de negócios. Verifica também a utilização de informações comparativas na análise do desempenho.",
+   "perguntas": [
+    {
+     "id": "q19",
+     "n": 19,
+     "texto": "AS INFORMAÇÕES NECESSÁRIAS PARA O PLANEJAMENTO, A EXECUÇÃO E ANÁLISE DAS ATIVIDADES E PARA A TOMADA DE DECISÃO ESTÃO DEFINIDAS E DISPONIBILIZADAS AOS COLABORADORES?",
+     "opcoes": [
+      "As informações não estão definidas.",
+      "Algumas informações para o planejamento, análise e execução das atividades para a tomada de decisão estão definidas.",
+      "As principais informações para o planejamento, análise e execução das atividades para a tomada de decisão estão definidas e são disponibilizadas para os colaboradores.",
+      "As informações para o planejamento, análise e execução das atividades para a tomada de decisão estão definidas, disponibilizadas para os colaboradores, organizadas em sistemas de informações e são utilizados mecanismos de segurança para a proteção das mesmas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar as principais informações utilizadas, os meios para disponibilização para os colaboradores e mecanismos de segurança."
+    },
+    {
+     "id": "q20",
+     "n": 20,
+     "texto": "O COMPARTILHAMENTO DO CONHECIMENTO É PROMOVIDO?",
+     "opcoes": [
+      "Não existem ações para promover o compartilhamento do conhecimento.",
+      "Os colaboradores são incentivados a compartilhar o conhecimento adquirido.",
+      "Os colaboradores compartilham o conhecimento adquirido, por meio de métodos formalizados.",
+      "Os colaboradores compartilham o conhecimento adquirido, por meio de métodos formalizados e este conhecimento é registrado."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q21",
+     "n": 21,
+     "texto": "SÃO PROMOVIDAS MELHORIAS NAS PRÁTICAS DE GESTÃO?",
+     "opcoes": [
+      "As práticas de gestão não demonstram melhorias.",
+      "Pelo menos uma prática de gestão apresenta melhorias.",
+      "Algumas práticas de gestão apresentam melhorias.",
+      "Muitas práticas de gestão apresentam melhorias decorrentes da análise de resultados de diagnóstico da gestão."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q22",
+     "n": 22,
+     "texto": "SÃO OBTIDAS E UTILIZADAS INFORMAÇÕES COMPARATIVAS NA ANÁLISE DO DESEMPENHO E MELHORIA DOS PRODUTOS/SERVIÇOS E PROCESSOS?",
+     "opcoes": [
+      "Não são obtidas informações comparativas externas.",
+      "São obtidas informações comparativas externas, mas não são utilizadas na análise do desempenho e melhoria dos produtos/serviços e processos.",
+      "São obtidas informações comparativas externas e utilizadas na melhoria dos produtos/serviços e processos.",
+      "São obtidas informações comparativas externas e apresenta evidências de utilização na análise do desempenho e melhoria dos produtos/serviços e processos."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os meios utilizados para busca de informações comparativas e os tipos de informações."
+    }
+   ]
+  },
+  {
+   "id": "pessoas",
+   "nome": "Pessoas",
+   "pontos": 9,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa as práticas de gestão em relação às pessoas que trabalham na empresa, ou seja, seus colaboradores. Observa a definição das funções na empresa e as responsabilidades associadas a cada uma dessas funções. Considera a seleção e a capacitação das pessoas para o exercício das funções e analisa os riscos e perigos associados ao trabalho, bem como a identificação e o tratamento dos fatores que afetam o bem-estar e a satisfação dos colaboradores. Colaboradores: incluem empregados, temporários, aprendizes, estagiários e terceirizados.",
+   "perguntas": [
+    {
+     "id": "q23",
+     "n": 23,
+     "texto": "AS FUNÇÕES E RESPONSABILIDADES DAS PESSOAS (DIRIGENTES E COLABORADORES) ESTÃO DEFINIDAS?",
+     "opcoes": [
+      "Não estão definidas",
+      "Estão definidas informalmente.",
+      "Estão definidas e documentadas para algumas funções.",
+      "Estão definidas, documentadas para todas as funções e conhecidas por todos os colaboradores."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Relatar quais documentos as funções e responsabilidades estão descritas."
+    },
+    {
+     "id": "q24",
+     "n": 24,
+     "texto": "A SELEÇÃO DOS COLABORADORES É FEITA SEGUNDO PADRÕES DEFINIDOS E CONSIDERA OS REQUISITOS DA FUNÇÃO?",
+     "opcoes": [
+      "A seleção é feita de forma intuitiva.",
+      "A seleção é feita com padrão definido para algumas funções.",
+      "A seleção é feita com padrão definido para todas as funções.",
+      "A seleção é feita com padrão definido para todas as funções, considerando os requisitos e responsabilidades definidas para a função."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q25",
+     "n": 25,
+     "texto": "OS COLABORADORES SÃO CAPACITADOS NAS SUAS FUNÇÕES?",
+     "opcoes": [
+      "Os colaboradores não são capacitados.",
+      "Os colaboradores são capacitados eventualmente.",
+      "Os colaboradores são capacitados regularmente.",
+      "Todos os colaboradores são capacitados com base em um plano de capacitação."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q26",
+     "n": 26,
+     "texto": "OS PERIGOS E RISCOS RELACIONADOS À SAÚDE E SEGURANÇA NO TRABALHO SÃO IDENTIFICADOS E TRATADOS?",
+     "opcoes": [
+      "Os perigos e riscos são identificados e não são tratados.",
+      "Os perigos não são identificados e apenas alguns deles são tratados.",
+      "Os perigos e riscos são identificados formalmente por meio de métodos que incluem PPRA e PCMSO e são tratados apenas com ações corretivas.",
+      "Os perigos e riscos são identificados formalmente por meio de métodos que incluem PPRA e PCMSO e são tratados com ações corretivas e preventivas."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q27",
+     "n": 27,
+     "texto": "O BEM-ESTAR E A SATISFAÇÃO DOS COLABORADORES SÃO PROMOVIDOS?",
+     "opcoes": [
+      "Não existem ações para promover o bem-estar e a satisfação dos colaboradores.",
+      "São adotadas ações para promover o bem-estar e a satisfação dos colaboradores apenas quando problemas são detectados.",
+      "São adotadas ações para promover o bem-estar e a satisfação dos colaboradores decorrentes de análises eventuais.",
+      "São adotadas ações para identificar e promover o bem-estar e a satisfação dos colaboradores decorrentes de análises regulares."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar as principais ações, incluindo os benefícios adotados para promover o bem-estar e a satisfação dos colaboradores."
+    }
+   ]
+  },
+  {
+   "id": "processos",
+   "nome": "Processos",
+   "pontos": 16,
+   "fatores": [
+    0,
+    0.3,
+    0.75,
+    1
+   ],
+   "descricao": "Este critério analisa os processos principais do negócio da empresa. São os processos que geram os produtos e os serviços que, entregues aos clientes, satisfazem suas necessidades e expectativas. Observa o relacionamento dos fornecedores com a empresa, por meio da análise de sua seleção e avaliação do desempenho. Analisa, também, a gestão das finanças para assegurar os recursos financeiros necessários às operações e aos investimentos da empresa.",
+   "perguntas": [
+    {
+     "id": "q28",
+     "n": 28,
+     "texto": "OS PROCESSOS PRINCIPAIS DO NEGÓCIO SÃO EXECUTADOS DE FORMA PADRONIZADA, COM PADRÕES DOCUMENTADOS?",
+     "opcoes": [
+      "Os processos principais do negócio não são executados de forma padronizada.",
+      "Os processos principais do negócio são executados de forma padronizada, mas os padrões não são documentados.",
+      "Os processos principais do negócio são executados de forma padronizada, com os padrões documentados.",
+      "Os processos principais do negócio são executados de forma padronizada, com os padrões documentados e definidos a partir de requisitos traduzidos das necessidades dos clientes."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os processos principais do negócio e os padrões documentados existentes."
+    },
+    {
+     "id": "q29",
+     "n": 29,
+     "texto": "OS PROCESSOS PRINCIPAIS DO NEGÓCIO SÃO CONTROLADOS PARA GARANTIR A SATISFAÇÃO DAS NECESSIDADES DOS CLIENTES?",
+     "opcoes": [
+      "Os processos principais do negócio não são controlados.",
+      "Os processos principais do negócio não são controlados, mas são corrigidos quando ocorrem problemas ou reclamações dos clientes.",
+      "Os processos principais do negócio são controlados com base em padrões de execução definidos e documentados.",
+      "Os processos principais do negócio são controlados com base em padrões de execução definidos e documentados, sendo controlados também por meio de indicadores e metas."
+     ],
+     "dica": "Respostas \"c\" e \"d\" - Apresentar os meios de controle utilizados no processo."
+    },
+    {
+     "id": "q30",
+     "n": 30,
+     "texto": "OS FORNECEDORES DA EMPRESA SÃO SELECIONADOS E AVALIADOS SEGUNDO CRITÉRIOS DEFINIDOS?",
+     "opcoes": [
+      "Os fornecedores não são selecionados segundo critérios definidos e não são avaliados quanto ao seu desempenho.",
+      "Os fornecedores são selecionados com critérios definidos, mas seu desempenho não é avaliado.",
+      "Os fornecedores são selecionados com critérios definidos e seu desempenho é avaliado, apenas quando ocorre algum problema.",
+      "Os fornecedores são selecionados com critérios definidos e seu desempenho é avaliado periodicamente, gerando ações para melhoria do fornecimento."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q31",
+     "n": 31,
+     "texto": "AS FINANÇAS DA EMPRESA SÃO CONTROLADAS A FIM DE OTIMIZAR A UTILIZAÇÃO DOS RECURSOS?",
+     "opcoes": [
+      "Não existem controles financeiros.",
+      "Existem controles financeiros, mas não é utilizado fluxo de caixa.",
+      "Existem controles financeiros, com utilização de fluxo de caixa.",
+      "Existem controles financeiros com utilização de fluxo de caixa e orçamento com horizonte de pelo menos um ano."
+     ],
+     "dica": ""
+    }
+   ]
+  },
+  {
+   "id": "resultados",
+   "nome": "Resultados",
+   "pontos": 30,
+   "fatores": [
+    0,
+    0.3,
+    0.6,
+    1
+   ],
+   "descricao": "Este critério analisa os resultados apresentados pela empresa. Os resultados são decorrência direta de tudo o que a empresa tem ou faz para cumprir o que foi solicitado nos critérios anteriores. Assim, são solicitados resultados relativos aos clientes, aos colaboradores, aos processos principais do negócio e aos resultados financeiros. Os resultados são analisados em relação à tendência, ou seja, o seu comportamento ao longo do tempo considerando os três últimos anos. As opções de respostas são selecionadas em função das situações a seguir: Resposta “b”: Se os resultados dos dois ou três anos demonstram piora do primeiro ano ao terceiro ano ou piora do segundo para o terceiro ano, a tendência é considerada desfavorável. Resposta “c”: Se os resultados dos dois ou três anos demonstram melhoria do segundo para o terceiro ano, a tendência é considerada favorável. Resposta “d”: Se os resultados dos três anos mostram melhoria constante e sustentada, é considerada tendência favorável.",
+   "perguntas": [
+    {
+     "id": "q32",
+     "n": 32,
+     "texto": "EXISTEM RESULTADOS RELATIVOS À SATISFAÇÃO DOS CLIENTES?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q33",
+     "n": 33,
+     "texto": "EXISTEM RESULTADOS RELATIVOS A RECLAMAÇÕES DE CLIENTES?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q34",
+     "n": 34,
+     "texto": "EXISTEM RESULTADOS RELATIVOS ÀS CAPACITAÇÕES MINISTRADAS PARA OS COLABORADORES?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q35",
+     "n": 35,
+     "texto": "EXISTEM RESULTADOS RELATIVOS A ACIDENTES COM COLABORADORES?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q36",
+     "n": 36,
+     "texto": "EXISTEM RESULTADOS RELATIVOS À PRODUTIVIDADE NO TRABALHO?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    },
+    {
+     "id": "q37",
+     "n": 37,
+     "texto": "EXISTEM RESULTADOS RELATIVOS À MARGEM DE LUCRO?",
+     "opcoes": [
+      "Não existem informações suficientes para avaliar.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, mas a tendência é desfavorável.",
+      "Existem informações referentes a dois ou três últimos períodos anuais distintos, sendo que nos dois últimos períodos a tendência é favorável.",
+      "Existem informações referentes a três últimos períodos anuais distintos, com tendência favorável, considerando os três resultados."
+     ],
+     "dica": ""
+    }
+   ]
+  }
+ ]
+}

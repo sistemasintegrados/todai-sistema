@@ -1,0 +1,136 @@
+{
+ "ficha": {
+  "proprietario": "Sócio A e Sócio B",
+  "produto": "Prestação de serviços (dados fictícios)",
+  "tempo_vida": "8 anos",
+  "missao": "Não definida",
+  "visao": "Não definida",
+  "erp": "Não utiliza",
+  "carteira": 30,
+  "clientes_novos": 7,
+  "leads": 40,
+  "inadimplencia_cliente": 0.5,
+  "colaboradores": 23,
+  "folha": 70000,
+  "infraestrutura": 20000,
+  "impostos": 10000,
+  "faturamento_anual": 2400000,
+  "ticket_atual": 6500,
+  "ticket_desejado": 8000,
+  "capacidade_atual": 60,
+  "observacoes": "Cliente fictício para demonstração do sistema."
+ },
+ "respostas": {
+  "q1": {
+   "o": 1
+  },
+  "q2": {
+   "o": 1
+  },
+  "q3": {
+   "o": 2
+  },
+  "q4": {
+   "o": 0
+  },
+  "q5": {
+   "o": 0
+  },
+  "q6": {
+   "o": 2
+  },
+  "q7": {
+   "o": 1
+  },
+  "q8": {
+   "o": 2
+  },
+  "q9": {
+   "o": 1
+  },
+  "q10": {
+   "o": 1
+  },
+  "q11": {
+   "o": 2
+  },
+  "q12": {
+   "o": 1
+  },
+  "q13": {
+   "o": 1
+  },
+  "q14": {
+   "o": 1
+  },
+  "q15": {
+   "o": 2
+  },
+  "q16": {
+   "o": 1
+  },
+  "q17": {
+   "o": 1
+  },
+  "q18": {
+   "o": 1
+  },
+  "q19": {
+   "o": 2
+  },
+  "q20": {
+   "o": 1
+  },
+  "q21": {
+   "o": 1
+  },
+  "q22": {
+   "o": 2
+  },
+  "q23": {
+   "o": 1
+  },
+  "q24": {
+   "o": 0
+  },
+  "q25": {
+   "o": 1
+  },
+  "q26": {
+   "o": 0
+  },
+  "q27": {
+   "o": 1
+  },
+  "q28": {
+   "o": 1
+  },
+  "q29": {
+   "o": 2
+  },
+  "q30": {
+   "o": 2
+  },
+  "q31": {
+   "o": 2
+  },
+  "q32": {
+   "o": 0
+  },
+  "q33": {
+   "o": 0
+  },
+  "q34": {
+   "o": 0
+  },
+  "q35": {
+   "o": 0
+  },
+  "q36": {
+   "o": 0
+  },
+  "q37": {
+   "o": 2
+  }
+ }
+}

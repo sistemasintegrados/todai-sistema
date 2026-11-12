@@ -16,6 +16,7 @@ const num = (v) => {
 };
 const dataBR = (iso) => (iso ? iso.slice(0, 10).split("-").reverse().join("/") : "");
 const hora = (iso) => new Date(iso).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+const hoje = () => { const d = new Date(); return new Date(d - d.getTimezoneOffset() * 60000).toISOString().slice(0, 10); };
 const STATUS = { diagnostico: "Em diagnóstico", proposta: "Proposta", contrato: "Contrato", encerrado: "Encerrado" };
 
 const S = { user: null, cliente: null, avaliacoes: [], aval: null, apos: null };
@@ -160,7 +161,7 @@ async function telaClientes() {
     <dialog id="dlg"><form method="dialog"><h2>Novo cliente</h2><label class="campo"><span>Nome da empresa</span><input name="nome" required></label>
     <div class="ac"><button class="btn" value="x" formnovalidate>Cancelar</button><button class="btn pri" value="ok">Criar</button></div></form></dialog>`, "clientes");
   $$("tr.cl").forEach((tr) => (tr.onclick = () => (location.hash = `#/c/${tr.dataset.id}/ficha`)));
-  const criar = async (nome, exemplo) => { const r = await api("POST", "/clientes", { nome, exemplo }); location.hash = `#/c/${r.id}/ficha`; };
+  const criar = async (nome, exemplo) => { const r = await api("POST", "/clientes", { nome, exemplo, data: hoje() }); location.hash = `#/c/${r.id}/ficha`; };
   $("#novo").onclick = () => $("#dlg").showModal();
   $("#dlg").onclose = (e) => { const n = $("#dlg input").value.trim(); if (e.target.returnValue === "ok" && n) criar(n); };
   if ($("#exemplo")) $("#exemplo").onclick = () => criar("Empresa Exemplo (fictícia)", true);
@@ -200,7 +201,7 @@ function molduraCliente(aba, conteudo) {
     $("#dlgAval").onclose = async (e) => {
       if (e.target.returnValue !== "ok") return;
       await flush();
-      const r = await api("POST", `/clientes/${c.id}/avaliacoes`, { titulo: $("#dlgAval input").value, copiarDe: S.aval.id });
+      const r = await api("POST", `/clientes/${c.id}/avaliacoes`, { titulo: $("#dlgAval input").value, copiarDe: S.aval.id, data: hoje() });
       try { sessionStorage.setItem(chaveAval(c.id), r.id); } catch { /* */ }
       S.cliente = null; rota();
     };
